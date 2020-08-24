@@ -15,16 +15,16 @@
     <!--Body-->
     <body>
         <!--Header-->
-        <header>
+        <header class="header">
             <!--Logo-->
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="./img/TigerSoftware.png" alt="Tiger Software Logo" width="90" height="103"/>
                 </figure>
             </div>
 
             <!--Navbar-->
-            <nav>
+            <nav class="navbar">
                 <ol>
                     <li>
                         <a href="#portfolio">Portfolio</a>
@@ -40,7 +40,7 @@
         </header>
 
         <!--Section Main-->
-        <section>
+        <section class="hero">
             <span>Main</span>
             <h1>
                 <strong>Tiger Software</strong><br/>Your best option,<br/>for <strong>software solution</strong>
@@ -49,72 +49,68 @@
         </section>
 
         <!--Section Portfolio-->
-        <section id="portfolio">
+        <section id="portfolio" class="portfolio">
             <h2>Portfolio</h2>
-            <article>
-                <h3>
+            <article class="project">
+                <h3 class="project_title">
                     H.R. MacMillan Space Centre | Vancouver Canada
                 </h3>
-                <h6>HTML + CSS + Js Vanilla</h6>
-                <p><small> <strong>Date:</strong> 08/25/2017</small></p>
-                <p>Visit the site at: <strong> <a href="https://www.spacecentre.ca/" target="_blank">Go to the site here</a> </strong></p>
-                <p>
-                    To create this project we used:
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript Vanilla</li>
-                    </ul>
+                <h6 class="project_technologies">HTML + CSS + Js Vanilla</h6>
+                <p class="project_date"><small> <strong>Date:</strong> 08/25/2017</small></p>
+                <p class="project_link">Visit the site at: <strong> <a href="https://www.spacecentre.ca/" target="_blank">Go to the site here</a> </strong></p>
+                <p class="project_description">
+                    <!--Loren ipsum-->
                 </p>
             </article>
 
-            <article>
-                <h3>
+            <article class="project">
+                <h3 class="project_title">
                     M.O.V. - Museum Of Vancouver | Vancouver, Canada
                 </h3>
-                <h6>HTML + CSS + Js Vanilla</h6>
-                <p><small> <strong>Date:</strong> 08/25/2017</small></p>
-                <p>Visit the site at: <strong> <a href="https://museumofvancouver.ca" target="_blank">Go to the site here</a> </strong></p>
-                <p>
-                    To create this project we used:
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript Vanilla</li>
-                    </ul>
+                <h6 class="technologies">HTML + CSS + Js Vanilla</h6>
+                <p class="project_date"><small> <strong>Date:</strong> 08/25/2017</small></p>
+                <p class="project_link">Visit the site at: <strong> <a href="https://museumofvancouver.ca" target="_blank">Go to the site here</a> </strong></p>
+                <p class="project_description">
+                    <!--Loren ipsum-->
                 </p>
             </article>
         </section>
 
         <!--Section Events-->
-        <section id="events">
-            <article>
+        <section id="events" class="event">
+            <article class="event_article">
                 <h2>Upcoming events:</h2>
                 <ul>
                     <li>
                         <h6>Free Consulting Day</h6>
                         <br/>
-                        <img src="./img/consoultingDay.jpg" alt="Consulting Day Image" width="384" height="256"/>
+                        <figure class="event_imageContainer">
+                            <img src="./img/consoultingDay.jpg" alt="Consulting Day Image" width="384" height="256" class="event_image"/>
+                        </figure>
                         <br/>
-                        <span><small><strong>Place: </strong>Tiger Software Headquarters</small></span>
+                        <span class="event_place"><small><strong>Place: </strong>Tiger Software Headquarters</small></span>
                         <br/>
-                        <span><small><strong>Date: </strong>01/08/2020</small></span>
+                        <span class="event_date"><small><strong>Date: </strong>01/08/2020</small></span>
                     </li>
 
                     <li>
                         <h6>Marathon to preserve marine life</h6>
                         <br/>
-                        <img src="./img/Vancouver_Marathon.jpg" alt="Marathon Image" width="380" height="254"/>
+                        <figure class="event_imageContainer">
+                            <img src="./img/Vancouver_Marathon.jpg" alt="Marathon Image" width="380" height="254" class="event_image"/>
+                        </figure>
                         <br/>
-                        <span><small><strong>Place: </strong>Granville Island Turkey Trot</small></span>
+                        <span class="event_place"><small><strong>Place: </strong>Granville Island Turkey Trot</small></span>
                         <br/>
-                        <span><small><strong>Date: </strong>08/08/2020</small></span>
+                        <span class="event_date"><small><strong>Date: </strong>08/08/2020</small></span>
                     </li>
 
                     <li>
                         <h6>Check our agenda</h6>
                         <br/>
-                        <img src="./img/agenda.webp" alt="Agenda Image" width="380" height="224"/>
+                        <figure class="event_imageContainer">
+                            <img src="./img/agenda.webp" alt="Agenda Image" width="380" height="224" class="event_image"/>
+                        </figure>
                         <br/>
                     </li>
                 </ul>
@@ -122,9 +118,9 @@
         </section>
 
         <!--Section Contact-->
-        <section id="contact">
+        <section id="contact" class="contact">
             <h6>Contac</h6>
-            <form action="">
+            <form action="" class="form_e-mail">
                 <h3>
                     <label for="e-mail">Let's create something great!</label>
                 </h3>
