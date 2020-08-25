@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url(./ttf/Fjalla_One/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./ttf/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url(./ttf/Fredoka_One/FredokaOne-Regular.ttf);
+}
+
 .palette {
     color: #45484B;
     color: #5A5E69;
@@ -8,22 +23,6 @@
     color: #FFFFFF;
 }
 
-.header {
-    /**/
-}
-
-.logo {
-    /**/
-}
-
-.navbar {
-    /**/
-}
-
-.hero {
-    /**/
-}
-
-.portfolio {
-    /**/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'fredoka One', sans-serif;
 }
