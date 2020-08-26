@@ -34,3 +34,12 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -0.25 px;
 }
+
+.hero {
+    height: 300px;
+}
+
+.project-details {
+    width: 500px;
+    height: 500px;
+}
