@@ -40,6 +40,7 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -0.25 px;
     color: #FFFFFF;
+    margin: 100px 520px 70px 30px;
 }
 
 h1 strong {
@@ -69,6 +70,7 @@ nav ol li a {
 .project {
     border: 1px solid #4A475B;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
