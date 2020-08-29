@@ -29,6 +29,10 @@
     color: #AD45A0;
 }
 
+body {
+    margin: 0;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'fredoka One', sans-serif;
 }
@@ -67,10 +71,18 @@ nav ol li a {
     background-position-x: right;
 }
 
+.portfolio {
+    background-color: #FAFAFA/*#ABB2C2*/;
+}
+
 .project {
-    border: 1px solid #4A475B;
+    border: 1.50px solid #4A475B;
     border-radius: 10px;
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-color: #23567A;
 }
 
 .project-details {
