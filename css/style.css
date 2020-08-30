@@ -14,13 +14,23 @@
 }
 
 .palette {
-    color: #45484B;
-    color: #5A5E69;
-    color: #787679;
-    color: #A5AF99;
-    color: #D2C098;
-    color: #000000;
-    color: #FFFFFF;
+    color: #1C1D2E;
+    color: #2A3047;
+    color: #0A0B14;
+    color: #4A475B;
+    color: #656B7E;
+    color: #878BA0;
+    color: #23567A;
+    color: #ABB2C2;
+    color: #D7E2E8;
+    color: #37A8B9;
+    color: #57888A;
+    color: #D400B7;
+    color: #AD45A0;
+}
+
+body {
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -33,13 +43,63 @@ h1 {
     /*font-style: italic;*/
     line-height: 1.5em;
     letter-spacing: -0.25 px;
+    color: #FFFFFF;
+    margin: 100px 520px 70px 30px;
+}
+
+h1 strong {
+    color: #2A3047;
+}
+
+.header {
+    background-color: #23567A;
+    color: #D7E2E8;
+    text-decoration: none;
+}
+
+nav ol li a {
+    color: #D7E2E8;
+    text-decoration: none;
 }
 
 .hero {
     height: 300px;
+    background-color: #37A8B9;
+    background-image: url(../img/Tiger_hero.jpg);
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.portfolio {
+    background-color: #FAFAFA/*#ABB2C2*/;
+}
+
+.project {
+    border: 1.50px solid #4A475B;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-color: #23567A;
+    display: flex;
 }
 
 .project-details {
     width: 500px;
     height: 500px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border : 1px solid red;
+    flex-shrink: 0;
 }
