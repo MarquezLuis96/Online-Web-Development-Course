@@ -55,11 +55,32 @@ h1 strong {
     background-color: #23567A;
     color: #D7E2E8;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.navbar {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+
+nav ol li {
+    height: inherit;
 }
 
 nav ol li a {
     color: #D7E2E8;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .hero {
@@ -94,7 +115,10 @@ nav ol li a {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box {
@@ -103,4 +127,15 @@ nav ol li a {
     margin: 10px;
     border : 1px solid red;
     flex-shrink: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
 }
