@@ -83,6 +83,7 @@ nav ol li a {
     padding: 20px;
     background-color: #FFFFFF;
     border-color: #23567A;
+    display: flex;
 }
 
 .project-details {
