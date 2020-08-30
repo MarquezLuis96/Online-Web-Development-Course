@@ -90,3 +90,16 @@ nav ol li a {
     width: 500px;
     height: 500px;
 }
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border : 1px solid red;
+    flex-shrink: 0;
+}
