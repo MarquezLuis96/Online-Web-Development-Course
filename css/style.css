@@ -100,16 +100,21 @@ nav ol li a {
 .hero {
     height: 300px;
     background-color: #37A8B9;
-    background-image: url(../img/Tiger_hero.jpg);
+    /*background-image: url(../img/Tiger_hero.jpg);
     background-size: 200px 300px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.heroimage {
+    object-fit: cover;
 }
 
 .portfolio {
-    background-color: #FAFAFA/*#ABB2C2*/;
+    background-color: #f1f0f0/*#ABB2C2*/;
     padding: 20px;
 }
 
@@ -243,7 +248,7 @@ section article ul li {
 .event_details {
     margin: 20px 40px;
     margin-top: -50px;
-    background-color: #F5F5F5;
+    background-color: #f6f4f4;
     position: relative;
     padding: 20px;
     text-align: center;
@@ -257,6 +262,7 @@ section article ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px;
 }
 
 .social {
@@ -302,10 +308,10 @@ section article ul li {
 
 .form_e-mail button {
     display: block;
-    margin: 10px auto 0;
-    background: transparent;
+    margin: 10px 0px 0;
+    background-color: #37A8B9;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 100px;
     padding: 10px 0;
     margin-top: 10px;
@@ -313,4 +319,51 @@ section article ul li {
 
 .form_email h3 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.calendar_btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #37A8B9;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.calendar_btn.icon {
+    background-image: url(../img/calendar.svg);
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+.btn_txt_cal {
+    margin: 10px auto;
+}
+
+.go {
+    background-image: url(../img/arrow.svg);
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
