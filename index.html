@@ -24,7 +24,7 @@
             <!--Logo-->
             <!--</div>-->
                 <figure class="logo">
-                    <img src="./img/TigerSoftware.png" alt="Tiger Software Logo" width="90" height="103"/>
+                    <img src="./img/TigerSoftware.png" alt="Tiger Software Logo" width="70" height="70"/>
                 </figure>
 
             <!--Navbar-->
@@ -65,6 +65,10 @@
                         <p class="project_link">Visit the site at: <strong> <a href="https://www.spacecentre.ca/" target="_blank">Go to the site here</a> </strong></p>
                     <p class="project_description">
                         <!--Loren ipsum-->
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                          sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </p>    
                 </div>
 
@@ -83,6 +87,10 @@
                     <p class="project_link">Visit the site at: <strong> <a href="https://museumofvancouver.ca" target="_blank">Go to the site here</a> </strong></p>
                     <p class="project_description">
                         <!--Loren ipsum-->
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                         sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </p>
                 </div>
 
@@ -94,8 +102,8 @@
 
         <!--Section Events-->
         <section id="events" class="event">
-            <article class="event_article">
-                <h2>Upcoming events:</h2>
+            <h2>Upcoming events:</h2>
+            <article class="event_list">
                 <ul>
                     <li>
                         <h6>Free Consulting Day</h6>
@@ -104,9 +112,11 @@
                             <img src="./img/consoultingDay.jpg" alt="Consulting Day Image" width="384" height="256" class="event_image"/>
                         </figure>
                         <br/>
-                        <span class="event_place"><small><strong>Place: </strong>Tiger Software Headquarters</small></span>
-                        <br/>
-                        <span class="event_date"><small><strong>Date: </strong>01/08/2020</small></span>
+                        <div class="event_details">
+                            <span class="event_place"><small><strong>Place: </strong>Tiger Software Headquarters</small></span>
+                            <br/>
+                            <span class="event_date"><small><strong>Date: </strong>01/08/2020</small></span>
+                        </div>
                     </li>
 
                     <li>
@@ -116,9 +126,12 @@
                             <img src="./img/Vancouver_Marathon.jpg" alt="Marathon Image" width="380" height="254" class="event_image"/>
                         </figure>
                         <br/>
-                        <span class="event_place"><small><strong>Place: </strong>Granville Island Turkey Trot</small></span>
-                        <br/>
-                        <span class="event_date"><small><strong>Date: </strong>08/08/2020</small></span>
+                        <div class="event_details">
+                            <span class="event_place"><small><strong>Place: </strong>Granville Island
+                                Turkey Trot</small></span>
+                           <br/>
+                           <span class="event_date"><small><strong>Date: </strong>08/08/2020</small></span>
+                        </div>
                     </li>
 
                     <li>
@@ -135,20 +148,31 @@
 
         <!--Section Contact-->
         <section id="contact" class="contact">
-            <h6>Contac</h6>
             <form action="" class="form_e-mail">
                 <h3>
                     <label for="e-mail">Let's create something great!</label>
                 </h3>
+                <h6>Contac</h6>
                 <input type="text" placeholder="Type your e-mail" id="e-mail">
                 <!--<button>Send</button>-->
-                <input type="submit" value="Submit">
+                <button>Submit</button>
             </form>
-        </section>
-    </body>
 
-    <!--Footer-->
-    <footer>
-        <h6>Footer</h6>
-    </footer>
+            <div class="social">
+                <a href="https://twitter.com/lamc_" class="social-link twitter" target="__blank"></a>
+                <a href="https://www.facebook.com/LuisMarqz96" class="social-link facebook" target="__blank"></a>
+                <a href="https://github.com/MarquezLuis96" class="social-link github" target="__blank"></a>
+                <a href="https://www.instagram.com/lamc_96" class="social-link instagram" target="__blank"></a>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="footer">
+            <div>
+                <p>Online web development course <img src="./img/TigerSoftware.png" alt="Logo" style="width: 50px; height: 50px;"></p>
+            </div>
+            <div>
+                <p>Designed with ❤ by <a href="https://www.facebook.com/LuisMarqz96/" target="__blank">Luis Márquez</a></p>
+            </div>
+        </footer>
+    </body>
 </html>
