@@ -209,17 +209,27 @@ footer div p a {
 }
 
 .event_list {
-    display: flex;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.event h2 {
+    margin: 5px 0 20px 5px;
+    padding-top: 5px;
 }
 
 section article ul {
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 section article ul li {
     border: 1px solid #000000;
     border-radius: 10px;
     background-color: #57888A;
+    flex-shrink: 0;
+    margin-bottom: 20px;
 }
 
 .event img {
@@ -237,6 +247,7 @@ section article ul li {
     position: relative;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .contact {
